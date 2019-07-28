@@ -1,0 +1,13 @@
+name: Stopwatch
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "10.0"
+targets:
+  Countdown:
+    type: application
+    platform: iOS
+    sources: [Stopwatch]
+    settings:
+      base:
+        SWIFT_VERSION: 5.0
